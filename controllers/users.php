@@ -1,6 +1,6 @@
 <?php
 class Users extends Controller{
-    protected function index(){
+    protected function Index(){
         echo 'users/index';
     }
 }

@@ -1,6 +1,6 @@
 <?php
 class Shares extends Controller{
-    protected function index(){
+    protected function Index(){
         echo 'shares/index';
     }
 }

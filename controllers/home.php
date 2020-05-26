@@ -1,6 +1,6 @@
 <?php
 class Home extends Controller{
-    protected function index(){
+    protected function Index(){
         echo 'home/index';
     }
 }
