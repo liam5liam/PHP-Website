@@ -7,5 +7,5 @@ define("DB_PASS", "mysql");
 define("DB_NAME", "shareboard");
 
 
-define("DB_PATH", "/");
-define("DB_URL", "http://localhost/php.ddv");
+define("ROOT_PATH", "/php.dev/");
+define("ROOT_URL", "http://localhost/php.dev/");
