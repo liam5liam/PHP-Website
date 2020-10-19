@@ -3,8 +3,8 @@
 	<title>Shareboard</title>
 	<!-- <link rel="stylesheet" href="assets/css/bootstrap.css.map"> -->
   <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/style.css"> -->
 </head>
 <body>
 	<nav >
@@ -39,10 +39,9 @@
 
     <div class="container">
 
-     <div class="row">
-     	<?php require($view); ?>
-     </div>
-
+    <div class="row">
+      <?php Messages::display(); ?>
+      <?php require($view); ?>
     </div><!-- /.container -->
 </body>
 </html>

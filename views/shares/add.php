@@ -2,6 +2,10 @@
     <div class="panel-heading">
         <h3 class="panel-title">Share Something!</h3>
     </div>
+    
+    <div>
+        <?php echo Messages::display(); ?>
+    </div>
     <div class="panel-body">
         <form method="post" action="<?php $_SERVER['PHP_SELF'] ?>">
             <div class="form-group">
